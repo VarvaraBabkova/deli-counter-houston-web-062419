@@ -7,4 +7,5 @@ def line (l)
   str = "The line is currently: "
   n = 0
   l.each {|name| str += (n.to_s + ". " + name)}
+  puts str
 end
