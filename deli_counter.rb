@@ -10,3 +10,8 @@ def line (l)
   l.each {|name| str += ((n += 1).to_s + ". " + name + " ")}
   puts str.strip
 end
+
+def take_a_number (array, name)
+  array.push (name)
+  puts "Welcome, #{name}. You are number #{array.size} in line."
+end
