@@ -6,5 +6,5 @@ def line (l)
   end
   str = "The line is currently: "
   n = 0
-  l.each {|name| str += (n.to_s + ". " + name.to_s)}
+  l.each {|name| str += (n.to_s + ". " + name)}
 end
