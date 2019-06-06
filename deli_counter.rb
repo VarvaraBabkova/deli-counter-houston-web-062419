@@ -8,5 +8,5 @@ def line (l)
   str = "The line is currently: "
   n = 0
   l.each {|name| str += ((n += 1).to_s + ". " + name + " ")}
-  puts str
+  puts str.chomp
 end
